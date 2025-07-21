@@ -31,22 +31,6 @@ export default function HomePage() {
       <section id="portfo">
         <h1>section portfolio</h1>
         <a
-          href="https://ebooking-eight.vercel.app"
-          target="_blank"
-          rel="noopener norefferer"
-          className=""
-        >
-          ebooking web app
-        </a>
-        <Image
-          src="/globe.svg"
-          alt=""
-          width={100}
-          height={100}
-          className=""
-        />
-
-        <a
           href="https://ariiq.my.id"
           target="_blank"
           rel="noopener norefferer"
@@ -54,14 +38,34 @@ export default function HomePage() {
         >
           portfolio web site
         </a>
-        <Image
+        {/* <Image
           src="/window.svg"
           alt=""
           width={100}
           height={100}
           className=""
-        />
+        /> */}
 
+        <br />
+
+        <a
+          href="https://ebooking-eight.vercel.app"
+          target="_blank"
+          rel="noopener norefferer"
+          className=""
+        >
+          ebooking web app
+        </a>
+        {/* <Image
+          src="/globe.svg"
+          alt=""
+          width={100}
+          height={100}
+          className=""
+        /> */}
+
+        <br />
+        
         <a
           href="https://ariiq.my.id"
           target="_blank"
@@ -70,17 +74,35 @@ export default function HomePage() {
         >
           presence web app
         </a>
-        <Image
+        {/* <Image
           src="/file.svg"
           alt=""
           width={100}
           height={100}
           className=""
-        />
+        /> */}
+
+        <br />
+        
+        <a
+          href="https://todo-webapp-five.vercel.app"
+          target="_blank"
+          rel="noopener norefferer"
+          className=""
+        >
+          todo web app
+        </a>
+        {/* <Image
+          src="/file.svg"
+          alt=""
+          width={100}
+          height={100}
+          className=""
+        /> */}
 
       </section>
 
-      <section id="contact" className="p-4">
+      <section id="contact" className="">
         <ContactForm />
       </section>
       <footer></footer>

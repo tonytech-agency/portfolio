@@ -47,12 +47,12 @@ export default function ContactForm() {
 
   return (
     <section id="contact" className="p-4">
-      <h1 className="">Hubungi Kami</h1>
+      <h1 className="">Contact us</h1>
 
       <form onSubmit={handleSubscribe} className="">
         <input
           type="email"
-          placeholder="Masukkan email"
+          placeholder="Email"
           value={subEmail}
           onChange={(e) => setSubEmail(e.target.value)}
           required
@@ -64,7 +64,7 @@ export default function ContactForm() {
       <form onSubmit={handleContact} className="">
         <input
           type="text"
-          placeholder="Nama"
+          placeholder="Name"
           value={contactForm.name}
           onChange={(e) => setContactForm({ ...contactForm, name: e.target.value })}
           required
@@ -79,13 +79,13 @@ export default function ContactForm() {
           className=""
         />
         <textarea
-          placeholder="Pesan"
+          placeholder="Message"
           value={contactForm.message}
           onChange={(e) => setContactForm({ ...contactForm, message: e.target.value })}
           required
           className=""
         />
-        <button type="submit" className="">Kirim Pesan</button>
+        <button type="submit" className="">Send message</button>
       </form>
 
       {message && <p className="">{message}</p>}
