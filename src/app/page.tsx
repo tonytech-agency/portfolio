@@ -67,7 +67,7 @@ export default function HomePage() {
         <br />
         
         <a
-          href="https://ariiq.my.id"
+          href="https://presensi-webapp.vercel.app/"
           target="_blank"
           rel="noopener norefferer"
           className=""
