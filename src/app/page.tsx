@@ -7,25 +7,33 @@ export default function HomePage() {
     <main>
       <header>
         <h1></h1>
-        <nav className="flex gap-2">
-          <a href="#about">about</a>
-          <a href="#profile">profile</a>
-          <a href="#service">service</a>
-          <a href="#portfo">portfo</a>
-          <a href="#contact">contact</a>
+        <nav className="flex text-center">
+          <div className="w-1/2">
+            <p>Tony Tech Agency</p>
+          </div>
+          <div className="w-1/2 flex justify-center gap-x-2">
+            <a href="#about">about</a>
+            <a href="#profile">profile</a>
+            <a href="#service">service</a>
+            <a href="#portfo">portfo</a>
+            <a href="#contact">contact</a>
+          </div>
         </nav>
       </header>
 
-      <section id="about">
-        <p></p>
+      <section id="about" className="mt-8 mb-8">
+        <p>about section</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, consequuntur.</p>
       </section>
 
-      <section id="profile">
-        <p></p>
+      <section id="profile" className="mt-8 mb-8">
+        <p>profile section</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia, aliquid!</p>
       </section>
 
-      <section id="service">
-
+      <section id="service" className="mt-8 mb-8">
+        <p>service section</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, dolorem.</p>
       </section>
 
       <section id="portfo">
@@ -65,7 +73,7 @@ export default function HomePage() {
         /> */}
 
         <br />
-        
+
         <a
           href="https://presensi-webapp.vercel.app/"
           target="_blank"
@@ -83,7 +91,7 @@ export default function HomePage() {
         /> */}
 
         <br />
-        
+
         <a
           href="https://todo-webapp-five.vercel.app"
           target="_blank"
@@ -102,7 +110,7 @@ export default function HomePage() {
 
       </section>
 
-      <section id="contact" className="">
+      <section id="contact" className="mt-8 mb-8">
         <ContactForm />
       </section>
       <footer></footer>
